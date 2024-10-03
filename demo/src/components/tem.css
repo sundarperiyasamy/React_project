@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* navbar section */
+.navbar-toggler-icon{
+    background-image: url(./images/menu.png);
+   background-size: contain;
+}
+.bg-img{
+    background-image: url(./images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight:bold ;
+    margin-left: 30px;
+}
+
+.nav-items{
+    color: white;
+    text-transform: uppercase;
+}
+nav{
+  color: white;
+}
+/* slider section */
+.text-color{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 120px;
+}
+.fitness{
+    font-size: 30px;
+    font-weight: bold;
+}
+.training{
+    font-size: 40px;
+}
+.neo{
+    letter-spacing:0.3em;
+    font-size: 50px;
+}
+.slider-para{
+    width: 80%;
+    margin: o0auto;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.button{
+    border:1.5px solid #ffffff;;
+    color:white;
+    padding: 8px 35px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/* us section */
+
+.us-img{
+    background-image: url(./images/us-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 30px;
+    width: 100%;
+}
+.us-heading{
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+}
+.quality-img{
+    width:25%;
+    height: 35%;
+    margin-left: 120px;
+}
+.nutrion-img{
+    width: 15%;
+    margin-left: 120px;
+}
+.sub-heading{
+    font-size: 17px;
+}
+.box-1{
+    width: 100%;
+}
+
+/* healthy section */
+.healthy-img{
+    background-image: url(./images/healthy-bg.jpg);
+    padding: 0px;
+}
+.h-para{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* trainers section */
+
+.training-img{
+    background-image: url(./images/trainer-bg.jpg);
+    padding: 0px;
+}
+.jon-card{
+    background-image: url(./images/t1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 446px;
+    width: 100%;
+}
+.doe-card{
+    background-image: url(./images/t2.jpg);
+}
+.den-card{
+    background-image: url(./images/t3.jpg);
+}
+.name{
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.social-box{
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+    height: 50px;
+    padding: 12px 45px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin-left: 70px;
+    position: relative;
+    top: -25px;
+}
+.jon-btn{
+ margin-top: -50px;
+}
+.social-box img{
+    position: absolute;
+}
+/* conatct section */
+.conatct-bg{
+    background-color:#27223f !important;
+}
+.contact-bg{
+    background-image: url(./images/contact-img.jpg);
+    max-height: 400px;
+    width: 100%;
+}
+.input-box{
+    width: 70%;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 25px;
+    padding: 12px;
+}
+.message-box{
+    padding: 45px 12px;
+}
+.contact-btn{
+    padding: 10px 65px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    background: #ff2953;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+.i-size{
+    height: 50px;
+}
+/* info section */
+.info-section{
+    background-color: #252233;
+    
+}
+.info-item{
+    width: 70%;
+    margin: 0 auto;
+}
+.item{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-box{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.detail-box{
+    margin-top: 5px;
+    color: #fff;
+}
+/* cart */
+.checkout {
+    text-align: right;
+  }
+  
+
+@media only screen and (max-width: 425px) {
+    .social-box{
+        margin-left: 40px;
+    }
+    .form-sec{
+        margin-left: 20px;
+    }
+    .input-box{
+        width: 90%;
+    }
+  }
+  @media only screen and (min-width: 992px){
+    .lap-responsive {
+        /* width: 33%; */
+    }
+  }

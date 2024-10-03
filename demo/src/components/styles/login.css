@@ -1,0 +1,56 @@
+.adduser {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.adduser h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adduserform .inputgroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.adduserform .inputgroup label {
+    margin-bottom: 5px;
+}
+
+.adduserform .inputgroup input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #711a94;
+    border-radius: 5px;
+}
+
+.adduserform .inputgroup .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adduserform .inputgroup .btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .adduser {
+        padding: 10px;
+        margin: 50px 10px;
+    }
+
+    .adduserform .inputgroup input,
+    .adduserform .inputgroup .btn {
+        padding: 8px;
+    }
+}

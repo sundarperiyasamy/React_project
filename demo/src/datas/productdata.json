@@ -1,0 +1,52 @@
+ [
+    {
+        "id": 1,
+        "Title": "fourarm-workout",
+        "Price": 250,
+        "Img": "./p-images/img-1.jpg"
+    },
+    {
+        "id": 2,
+        "Title": "gym-bag",
+        "Price": 500,
+        "Img": "./p-images/gym bag.jpg"
+    },
+    {
+        "id": 3,
+        "Title": "gym-gloves",
+        "Price": 500,
+        "Img": "./p-images/gym gloves.jpg"
+        
+    },
+    {
+        "id": 4,
+        "Title": "gym-sleeveless",
+        "Price": 250,
+        "Img": "./p-images/gym sleeveless.webp"
+    },
+    {
+        "id": 5,
+        "Title": "gym-wrest band",
+        "Price": 250,
+        "Img": "./p-images/wrest band.webp"
+    },
+    {
+        "id": 6,
+        "Title": "protein-powder",
+        "Price": 250,
+        "Img": "./p-images/protein powder.webp"
+    },
+    
+    {
+        "id": 7,
+        "Title": "water-bottle",
+        "Price": 250,
+        "Img": "./p-images/water-bottle.png"
+    },
+    {
+        "id": 8,
+        "Title": "water-bottle",
+        "Price": 250,
+        "Img": "./p-images/gym rope.webp"
+    }
+]

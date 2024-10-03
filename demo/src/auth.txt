@@ -1,0 +1,4 @@
+get the user values from login form(email)
+store the user values in store
+apply condition if user details is available go to products page 
+else redirect to the login page 
